@@ -54,7 +54,6 @@ func (c *Canvas) DrawAlphaTexture(name string, px, py int, tex *Texture) {
 				c.CanvasBuffer[screenIndex] = byte(rstR)   // R
 				c.CanvasBuffer[screenIndex+1] = byte(rstG) // G
 				c.CanvasBuffer[screenIndex+2] = byte(rstB) // B
-				// c.CanvasBuffer[screenIndex+3] = tex.Pixels[texIndex+3] // A
 			}
 		}
 	}
